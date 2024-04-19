@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Folha de estilo de CSS Linkado -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Portifólio Pessoal</title>
+</head>
+<body>
+    <!-- Sessão de Menu  -->
+    <div class="all">
+    <section class="menu">
+        <header>
+            <!--<img src="assets\vector.png"> -->
+            <h3 class="menu__title">Marcos Felipe Issa</h3>
+        </header>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#formacao">Formações e Cursos</a></li>
+                <li class="menu__list__item"><a href="#xp">Experiência</a></li>
+                <li class="menu__list__item"><a href="#contato">Contato</a></li>
+                
+            </ul>
+        </nav>
+    </section>
+
+<!-- Sessão de Header/Title/Hero -->
+    <section class="title">
+        <div class="title__div">
+            <img class="title__profile" src="assets\profile.png">
+            <div class="title__container" id="sobremim">
+                <h2 class="title__bio">Olá, meu nome é Marcos Issa  e gostaria de trabalhar com Java</h2>
+                <h3 class="title__subsection">Eu sou formado em desenvolvimento de sistemas pelo SENAC-RS e informatica industrial pelo SENAI-RS e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+                <ul class="title__network">
+                    <!-- Ponha os links de suas redes sociais favoritas -->
+                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Curriculo <img src="assets\arrow.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+       <!-- Sessão sobre mim -->
+<section class="about" aria-label="Sobre mim">
+    <div class="about__container">
+        <h2 class="about__title">Sobre mim</h2>
+        <p class="about__paragraph">Sou um profissional dedicado e entusiasta de programação. Atualmente, busco uma oportunidade na área de back-end, especialmente com Java, para desenvolver minhas habilidades e aprofundar meus conhecimentos nessa linguagem.</p>
+        <p class="about__paragraph">Meu objetivo é integrar uma equipe dinâmica onde possa contribuir com meus conhecimentos em programação Java e, ao mesmo tempo, adquirir experiência prática no desenvolvimento de software. Caracterizo-me por ser comprometido, proativo e possuir habilidades efetivas de trabalho em equipe. Estou ansioso para enfrentar desafios e contribuir para o sucesso de projetos inovadores.</p>
+        <!-- Insira sua assinatura abaixo se desejar -->
+        <!-- <img src="assets/signature.png" alt="Minha Assinatura" class="about__signature"> -->
+    </div>
+</section>
+
+<!-- Sessão de Skills/Habilidades -->
+<section class="skills" id="skills">
+    <h3 class="skills__title">Skills</h3>
+    <div class="skills__content">
+        <div class="skills__item">
+            <img src="assets/htlm.png" alt="HTML 5" class="skills__icon">
+            <span class="skills__name">HTML 5</span>
+        </div>
+
+        <div class="skills__item">
+            <img src="assets/js_icon.png" alt="Javascript" class="skills__icon">
+            <span class="skills__name">Javascript</span>
+        </div>
+
+        <div class="skills__item">
+            <img src="assets/php_icon.png" alt="PHP" class="skills__icon">
+            <span class="skills__name">PHP</span>
+        </div>
+
+        <div class="skills__item">
+            <img src="assets/java_icon.png" alt="Java" class="skills__icon">
+            <span class="skills__name">Java</span>
+        </div>
+
+        <div class="skills__item">
+            <img src="assets/mysql_icon2.png" alt="MySQL" class="skills__icon">
+            <span class="skills__name">MySQL</span>
+        </div>
+
+        <div class="skills__item">
+            <img src="assets/css_icon.png" alt="CSS" class="skills__icon">
+            <span class="skills__name">CSS</span>
+        </div>
+    </div>
+</section>
+
+<!-- Sessão de Hobbies -->
+<section class="hobbies" id="hobbies">
+    <h3 class="hobbies__title">Hobbies</h3>
+    <div class="hobbies__content">
+        <div class="hobbies__item">
+            <img src="assets/headphones_icon.png" alt="Ouvir música" class="hobbies__icon">
+            <span class="hobbies__name">Ouvir música</span>
+        </div>
+        <div class="hobbies__item">
+            <img src="assets/tv_icon.png" alt="Assistir séries" class="hobbies__icon">
+            <span class="hobbies__name">Assistir séries</span>
+        </div>
+        <div class="hobbies__item">
+            <img src="assets/forkspoon_icon.png" alt="Cozinhar" class="hobbies__icon">
+            <span class="hobbies__name">Cozinhar</span>
+        </div>
+    </div>
+</section>
+
+    <!-- Sessão de Histórico Acadêmico -->
+<section class="academic">
+    <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
+    <div class="academic__courses">
+        <div class="academic__courses__box">
+            <ul class="academic__courses__list">
+                <!-- Insira a logo de seu local de formação -->
+                <li class="academic__courses__item academic__courses__item--img"><img src="assets/senaiLogo.jpg" alt="Logo Senai-RS"></li>
+                <li class="academic__courses__item academic__courses__item--title"><h4>Desenvolvimento de sistemas</h4></li>
+                <li class="academic__courses__item academic__courses__item--subtitle"><p>Senai-RS</p></li>
+            </ul>
+        </div>
+        <div class="academic__courses__box">
+            <ul class="academic__courses__list">
+                <!-- Insira a logo de seu local de formação -->
+                <li class="academic__courses__item academic__courses__item--img"><img src="assets/senacLogo.png" alt="Logo Senai-RS"></li>
+                <li class="academic__courses__item academic__courses__item--title"><h4>Informática Industrial</h4></li>
+                <li class="academic__courses__item academic__courses__item--subtitle"><p>Senai-RS</p></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <!-- Sessão de Experiência Profissional/Projetos-->
+    <section class="experience">
+        <h2 class="experience__title" id="xp">Experiência Profissional</h2>
+        <div class="experience__box">
+            <time>03/2017 - Presente</time>
+            <h3>Diretor técnico, Sigel Soluções em informática</h3>
+            <ul>
+                <li>Construção de sites em WordPress e bootstrap.</li>
+                <li>Instalação e manutenção de servidores Microsoft e Linux.</li>
+                <li>Instalação de sistemas operacionais.</li>
+                <li>Reparo e manutenção de placas de notebook.</li>
+            </ul>
+        </div>
+        <div class="experience__box">
+            <time>01/2012 - 12/2016</time>
+            <h3>Técnico informática, Realtech informática</h3>
+            <ul>
+                <li>Instalação e manutenção de servidores Microsoft e Linux.</li>
+                <li>Instalação de sistemas operacionais.</li>
+                <li>Reparo e manutenção de placas de notebook.</li>
+            </ul>
+        </div>
+        <div class="experience__box">
+            <time>2010 - 03/2012</time>
+            <h3>Administrativo (área de informática), Fundação de Ciência e Tecnologia CIENTEC</h3>
+            <ul>
+                <li>Suporte aos usuários (cerca de 300).</li>
+                <li>Manutenção dos computadores da rede (cerca de 200).</li>
+                <li>Administração dos servidores: dois Windows 2003, dois Windows NT, servidor Linux com Proxy.</li>
+                <li>Instalação de impressoras em rede.</li>
+                <li>Manutenção do sistema da empresa (SQL e PHP).</li>
+            </ul>
+        </div>
+        <div class="experience__box">
+            <time>06/2009 - 03/2010</time>
+            <h3>Estágio em Informática Industrial - Viação Teresópolis Cavalhada</h3>
+            <ul>
+                <li>Suporte aos usuários.</li>
+                <li>Administração do servidor AD.</li>
+                <li>Manutenção dos computadores da rede.</li>
+                <li>Administração do servidor de Backup.</li>
+                <li>Administração do servidor de Antivírus.</li>
+                <li>Administração do servidor de Internet e E-mail (Plataforma Linux).</li>
+            </ul>
+        </div>
+    </section>
+                           
+        <!-- Sessão de Contato -->
+<section class="formcontato" id="contato">
+    <div class="formcontato__container">
+        <div class="formcontato__esquerda">
+            <img class="formcontato__img" src="assets/mail.jpg" alt="Imagem de Contato">
+        </div>
+        <div class="formcontato__direita">
+            <h2 class="formcontato__title">Contato</h2>
+            <p class="formcontato__subtext">Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+            <form class="formcontato__form">
+                <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                <input class="formcontato__input" type="email" id="email" placeholder="Email">
+                <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
+                <textarea class="formcontato__textarea" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                <button type="submit" class="formcontato__botao">Enviar mensagem</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+        <!-- Sessão de Footer/Rodapé-->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desenvolvido por Marcos Issa</p>
+                <p>2023</p>
+            </div>
+        </section>
+    </div>
+    <!-- Script Linkado do seu documento de JavaScript -->
+<script src="validate.js"></script>
+</body>
+</html>
+
